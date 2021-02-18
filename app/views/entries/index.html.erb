@@ -18,7 +18,7 @@
               <p><span class="has-text-weight-bold"><%= entry.fats %></span> Grams of fat</p>
               <p class="italic">Logged <%= time_ago_in_words(entry.created_at) %> ago</p>
             </div>
-          </div>  
+          </div>
           <div class="card-footer">
             <%= link_to 'Show', entry, class: "card-footer-item" %>
             <%= link_to 'Edit', edit_entry_path(entry), class: "card-footer-item" %>
